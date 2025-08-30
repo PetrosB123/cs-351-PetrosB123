@@ -19,7 +19,7 @@ def selection_sort(arr):
     return new_arr
 
 def merge_sort(arr):
-    if len(arr) <= 2:
+    if len(arr) <= 1:
         return arr
     split_arr = []
     split_arr.append(arr[:len(arr)//2])
